@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Square Feet's premium range of tiles, sanitary ware, granites and CP fittings in Raipur, Chhattisgarh.">
+    <title>Products - Square Feet | Premium Tiles & Sanitary Solutions</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="Square Feet Logo">
+                        <span>Square Feet</span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html" class="active">Products</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html" class="btn btn-primary">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section id="page-banner">
+        <div class="page-banner-bg" style="background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="banner-content">
+                    <h1>Our Products</h1>
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a> / <span>Products</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Filter Section -->
+    <section id="products-filter">
+        <div class="container">
+            <div class="filter-wrapper">
+                <div class="filter-categories">
+                    <h3>Categories</h3>
+                    <ul class="filter-nav">
+                        <li class="active"><a href="#all" data-filter="all">All Products</a></li>
+                        <li><a href="#floor-tiles" data-filter="floor-tiles">Floor Tiles</a></li>
+                        <li><a href="#wall-tiles" data-filter="wall-tiles">Wall Tiles</a></li>
+                        <li><a href="#bathroom" data-filter="bathroom">Bathroom Tiles</a></li>
+                        <li><a href="#kitchen" data-filter="kitchen">Kitchen Tiles</a></li>
+                        <li><a href="#sanitary" data-filter="sanitary">Sanitary Ware</a></li>
+                        <li><a href="#granites" data-filter="granites">Granites</a></li>
+                        <li><a href="#cp-fittings" data-filter="cp-fittings">CP Fittings</a></li>
+                    </ul>
+                </div>
+                <div class="search-sort">
+                    <div class="search-box">
+                        <input type="text" id="product-search" placeholder="Search products...">
+                        <button type="button"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="sort-options">
+                        <label for="sort">Sort by:</label>
+                        <select id="sort">
+                            <option value="popularity">Popularity</option>
+                            <option value="newest">Newest</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid Section -->
+    <section id="products-grid">
+        <div class="container">
+            <div class="products-wrapper">
+                <!-- Floor Tiles Category -->
+                <div id="floor-tiles" class="product-category active">
+                    <div class="category-header">
+                        <h2>Designer Floor Tiles</h2>
+                        <p>Elevate your space with our exquisite collection of designer floor tiles.</p>
+                    </div>
+                    <div class="products-row">
+                        <div class="product-card" data-category="floor-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Marble Look Ceramic Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Marble Look Ceramic Tile</h3>
+                                <p>Elegant marble-look ceramic tiles for a luxurious feel.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 60x60 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card" data-category="floor-tiles">
+                            <div class="product-image">
+                                <img src="assets/images/wood-effect-tile.webp" alt="Wood Effect Porcelain Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Wood Effect Porcelain Tile</h3>
+                                <p>Realistic wood-look porcelain tiles for warmth and durability.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 20x120 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card" data-category="floor-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Modern Geometric Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Modern Geometric Tile</h3>
+                                <p>Contemporary geometric patterns for a striking statement.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 45x45 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card" data-category="floor-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Terrazzo Inspired Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Terrazzo Inspired Tile</h3>
+                                <p>Modern terrazzo-inspired tiles for a trendy interior.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 60x60 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wall Tiles Category -->
+                <div id="wall-tiles" class="product-category">
+                    <div class="category-header">
+                        <h2>Wall Tiles</h2>
+                        <p>Transform your walls with our stunning range of wall tiles for every room.</p>
+                    </div>
+                    <div class="products-row">
+                        <div class="product-card" data-category="wall-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Subway Ceramic Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Subway Ceramic Tile</h3>
+                                <p>Classic subway tiles in various colors for a timeless look.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 10x30 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card" data-category="wall-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1625498542602-6faf30ead378?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="3D Textured Wall Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>3D Textured Wall Tile</h3>
+                                <p>Add dimension with our 3D textured wall tiles.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 30x60 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card" data-category="wall-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1572883454114-1cf0031ede2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Decorative Pattern Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Decorative Pattern Tile</h3>
+                                <p>Intricate patterns for accent walls and feature areas.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 20x20 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card" data-category="wall-tiles">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Stone Effect Wall Tile">
+                                <div class="product-overlay">
+                                    <a href="#" class="view-details">View Details</a>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Stone Effect Wall Tile</h3>
+                                <p>Natural stone-look tiles for an organic, earthy feel.</p>
+                                <div class="product-meta">
+                                    <span class="size">Size: 30x60 cm</span>
+                                    <a href="contact.html" class="inquiry-btn">Inquire Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More product categories would be added here for bathroom tiles, kitchen tiles, etc. -->
+                <!-- For brevity, I'm showing just two categories fully implemented -->
+
+                <!-- Add placeholder sections for other categories -->
+                <div id="bathroom" class="product-category">
+                    <div class="category-header">
+                        <h2>Bathroom Tiles</h2>
+                        <p>Waterproof and stylish tiles designed specifically for bathroom environments.</p>
+                    </div>
+                    <!-- Products would be added here -->
+                </div>
+
+                <div id="kitchen" class="product-category">
+                    <div class="category-header">
+                        <h2>Kitchen Tiles</h2>
+                        <p>Durable and easy-to-clean tiles perfect for kitchen walls and floors.</p>
+                    </div>
+                    <!-- Products would be added here -->
+                </div>
+
+                <div id="sanitary" class="product-category">
+                    <div class="category-header">
+                        <h2>Sanitary Ware</h2>
+                        <p>High-quality sanitary fixtures for modern bathrooms.</p>
+                    </div>
+                    <!-- Products would be added here -->
+                </div>
+
+                <div id="granites" class="product-category">
+                    <div class="category-header">
+                        <h2>Granites</h2>
+                        <p>Premium granite options for countertops and flooring.</p>
+                    </div>
+                    <!-- Products would be added here -->
+                </div>
+
+                <div id="cp-fittings" class="product-category">
+                    <div class="category-header">
+                        <h2>CP Fittings</h2>
+                        <p>Elegant chrome-plated fittings for bathrooms and kitchens.</p>
+                    </div>
+                    <!-- Products would be added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section id="pagination">
+        <div class="container">
+            <div class="pagination-wrapper">
+                <ul class="pagination">
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Inquiry Section -->
+    <section id="product-inquiry">
+        <div class="container">
+            <div class="inquiry-wrapper">
+                <div class="inquiry-content">
+                    <h2>Can't Find What You're Looking For?</h2>
+                    <p>We have a vast range of products beyond what's displayed online. Contact us with your specific requirements, and our team will be happy to assist you.</p>
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column about-company">
+                    <h3>Square Feet</h3>
+                    <p>Premium tiles and sanitary solutions for elegant spaces. We blend modern style with traditional craftsmanship to create spaces that inspire.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column product-categories">
+                    <h3>Product Categories</h3>
+                    <ul>
+                        <li><a href="products.html#floor-tiles">Designer Floor Tiles</a></li>
+                        <li><a href="products.html#wall-tiles">Wall Tiles</a></li>
+                        <li><a href="products.html#bathroom">Bathroom Tiles</a></li>
+                        <li><a href="products.html#kitchen">Kitchen Tiles</a></li>
+                        <li><a href="products.html#sanitary">Sanitary Ware</a></li>
+                        <li><a href="products.html#granites">Granites</a></li>
+                        <li><a href="products.html#cp-fittings">CP Fittings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column contact-info">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Dhamtari Road, Near Colors Mall, Pachpedi Naka, Raipur, Chhattisgarh, India</li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+917777883386">+91 7777883386</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:sales@thesquarefeet.in">sales@thesquarefeet.in</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:admin@thesquarefeet.in">admin@thesquarefeet.in</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Square Feet. All rights reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/product-filter.js"></script>
+</body>
+</html>

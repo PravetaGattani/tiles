@@ -1,0 +1,15 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a085;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="pattern3" patternUnits="userSpaceOnUse" width="60" height="60" patternTransform="scale(2) rotate(0)">
+      <rect width="30" height="30" fill="#ffffff" opacity="0.1" />
+      <rect width="30" height="30" x="30" y="30" fill="#ffffff" opacity="0.1" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad3)" />
+  <rect width="100%" height="100%" fill="url(#pattern3)" />
+  <text x="50%" y="50%" font-family="Arial" font-size="50" fill="white" text-anchor="middle">Elegant Bathroom Tiles</text>
+</svg>

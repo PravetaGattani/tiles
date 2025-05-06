@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <!-- Background Tile Pattern -->
+  <defs>
+    <pattern id="tile-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" x="0" y="0" fill="#e67e22" opacity="0.2" />
+      <rect width="10" height="10" x="10" y="10" fill="#e67e22" opacity="0.2" />
+    </pattern>
+  </defs>
+  
+  <!-- Square Feet Icon (Stylized Building/Tile) -->
+  <g transform="translate(10, 5)">
+    <!-- Building/Tile Shape -->
+    <rect x="5" y="5" width="40" height="40" rx="2" fill="#2c3e50" />
+    
+    <!-- Floor Lines (Tile Pattern) -->
+    <line x1="5" y1="15" x2="45" y2="15" stroke="#e67e22" stroke-width="1.5" />
+    <line x1="5" y1="25" x2="45" y2="25" stroke="#e67e22" stroke-width="1.5" />
+    <line x1="5" y1="35" x2="45" y2="35" stroke="#e67e22" stroke-width="1.5" />
+    
+    <!-- Window/Tile Details -->
+    <rect x="15" y="8" width="8" height="5" rx="1" fill="#e67e22" />
+    <rect x="27" y="8" width="8" height="5" rx="1" fill="#e67e22" />
+    <rect x="15" y="18" width="8" height="5" rx="1" fill="#e67e22" />
+    <rect x="27" y="18" width="8" height="5" rx="1" fill="#e67e22" />
+    <rect x="15" y="28" width="8" height="5" rx="1" fill="#e67e22" />
+    <rect x="27" y="28" width="8" height="5" rx="1" fill="#e67e22" />
+    
+    <!-- Base/Foundation with Pattern -->
+    <rect x="0" y="45" width="50" height="10" fill="url(#tile-pattern)" stroke="#2c3e50" stroke-width="1.5" />
+  </g>
+  
+  <!-- Text: Square Feet -->
+  <g transform="translate(70, 32)">
+    <!-- Square -->
+    <text font-family="'Playfair Display', serif" font-size="22" font-weight="700" fill="#2c3e50">
+      Square
+    </text>
+    <!-- Feet -->
+    <text font-family="'Playfair Display', serif" font-size="22" font-weight="700" fill="#e67e22" x="75">
+      Feet
+    </text>
+  </g>
+  
+  <!-- Tagline -->
+  <text font-family="'Raleway', sans-serif" font-size="10" font-weight="500" fill="#777" x="70" y="47">
+    Premium Tiles &amp; Sanitary Solutions
+  </text>
+</svg>

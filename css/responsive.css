@@ -1,0 +1,413 @@
+/*
+* Square Feet - Premium Tiles & Sanitary Solutions
+* Responsive Stylesheet
+* Author: Square Feet
+* Version: 1.0
+*/
+
+/*--------------------------------------------------------------
+# Table of Contents
+--------------------------------------------------------------*/
+/*
+1. Large Desktops (1200px and above)
+2. Desktops and Laptops (992px to 1199px)
+3. Tablets (768px to 991px)
+4. Large Mobiles (576px to 767px)
+5. Small Mobiles (575px and below)
+*/
+
+/*--------------------------------------------------------------
+# 1. Large Desktops (1200px and above)
+--------------------------------------------------------------*/
+@media screen and (min-width: 1200px) {
+    /* Default styles are for large desktops, no specific overrides needed here */
+}
+
+/*--------------------------------------------------------------
+# 2. Desktops and Laptops (992px to 1199px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 1199px) {
+    /* Header & Navigation */
+    .main-nav li {
+        margin: 0 10px;
+    }
+    
+    /* Hero Section */
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.3rem;
+    }
+    
+    /* Features Section */
+    .features-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    /* Products Grid */
+    .products-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /* Team Grid */
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /* Testimonials Grid */
+    .testimonials-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+/*--------------------------------------------------------------
+# 3. Tablets (768px to 991px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 991px) {
+    /* Header & Navigation */
+    .header-wrapper {
+        padding: 15px 0;
+    }
+    
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--white);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        padding: 20px;
+    }
+    
+    .main-nav.active {
+        display: block;
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .main-nav li {
+        margin: 10px 0;
+        width: 100%;
+    }
+    
+    .main-nav a {
+        display: block;
+        padding: 10px 0;
+    }
+    
+    .main-nav a.btn {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    /* Hero Section */
+    #hero {
+        height: 80vh;
+        min-height: 500px;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    
+    /* About Brief Section */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .about-text {
+        order: 2;
+    }
+    
+    .about-image {
+        order: 1;
+    }
+    
+    /* Products Highlight */
+    .products-categories {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* Products Grid */
+    .products-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Mission Vision Section */
+    .mission-vision-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* Team Grid */
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Contact Info */
+    .contact-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Contact Form and Map */
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    /* Newsletter Section */
+    .newsletter-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .newsletter-form {
+        width: 100%;
+    }
+    
+    /* Benefits Grid */
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Employee Testimonial */
+    .employee-testimonial {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/*--------------------------------------------------------------
+# 4. Large Mobiles (576px to 767px)
+--------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+    /* General Section Spacing */
+    section {
+        padding: 60px 0;
+    }
+    
+    /* Typography */
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    /* Header & Navigation */
+    .logo span {
+        display: none;
+    }
+    
+    /* Hero Section */
+    #hero {
+        height: 70vh;
+        min-height: 450px;
+        margin-top: 80px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Features Section */
+    .features-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Products Grid */
+    .products-row {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Filter Wrapper */
+    .filter-wrapper {
+        flex-direction: column;
+    }
+    
+    .search-sort {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .search-box, .sort-options {
+        width: 100%;
+    }
+    
+    .search-box input[type="text"] {
+        width: 100%;
+    }
+    
+    /* Team Grid */
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Timeline */
+    .timeline:before {
+        left: 20px;
+    }
+    
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .year {
+        width: auto;
+        text-align: left;
+        padding-left: 45px;
+        margin-bottom: 10px;
+    }
+    
+    .timeline-content {
+        width: 100%;
+    }
+    
+    /* Video Testimonials */
+    .video-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Testimonials Grid */
+    .testimonials-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Gallery Wrapper */
+    .gallery-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Blog Page */
+    .blog-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Contact Forms */
+    .contact-form, .career-form {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# 5. Small Mobiles (575px and below)
+--------------------------------------------------------------*/
+@media screen and (max-width: 575px) {
+    /* General Section Spacing */
+    section {
+        padding: 50px 0;
+    }
+    
+    /* Typography */
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    /* Hero Section */
+    #hero {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    /* Page Banner */
+    #page-banner {
+        height: 300px;
+    }
+    
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+    
+    /* Contact Cards */
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Newsletter Form */
+    .newsletter-form .form-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-form input[type="email"] {
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .newsletter-form button {
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+    /* CTA Buttons */
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Pagination */
+    .pagination li a {
+        width: 35px;
+        height: 35px;
+    }
+}
